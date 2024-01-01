@@ -1,8 +1,6 @@
-teste
-update
 # Documentação da Biblioteca Decorators-Logger
 
-A biblioteca LogDecorator é uma ferramenta simples e flexível para adicionar logs a métodos em TypeScript. Ela permite que você personalize facilmente o formato e o conteúdo dos logs, bem como o destino para onde os logs serão gravados. A biblioteca usa decorators para simplificar a aplicação do logging aos métodos desejados.
+A biblioteca LogDecorator é uma ferramenta simples e flexível para adicionar logs a métodos em TypeScript. Ela permite que você personalize facilmente o formato e o conteúdo dos logs, bem como o destino para onde os logs serão gravados. A biblioteca usa decorators para simplificar a aplicação de logger aos métodos desejados.
 
 ## Instalação
 
@@ -35,8 +33,13 @@ exemplo.metodoExemplo("Olá", 42);
 Neste exemplo, a classe `Exemplo` contém um método `metodoExemplo` decorado com `@LogarMethod`, que adicionará logs antes e depois da execução do método. O arquivo de log será criado no caminho especificado em `logFilePath` (por padrão, no diretório 'logs').
 
 ## Opções do Decorator
+##### Não se esqueça de alterar em seu *tsconfig.json*
+```
+"experimentalDecorators": true
+```
 
-O decorator `@LogarMethod` aceita várias opções para personalizar o comportamento do logging. Aqui estão as opções disponíveis:
+
+O decorator `@LogarMethod` aceita várias opções para personalizar o comportamento do logger. Aqui estão as opções disponíveis:
 
 - `prefix?: string`: Adiciona um prefixo às mensagens de log (padrão: vazio).
 - `suffix?: string`: Adiciona um sufixo às mensagens de log (padrão: vazio).
@@ -76,3 +79,7 @@ Neste exemplo, um novo decorator `LogarComPrefixo` é criado para adicionar um p
 ## Conclusão
 
 A biblioteca LogDecorator oferece uma solução fácil e eficiente para adicionar logs a métodos em seus projetos TypeScript. Personalize as opções conforme necessário para atender aos requisitos específicos do seu aplicativo. Se precisar de mais informações, consulte a documentação da API ou entre em contato com a comunidade de desenvolvedores.
+
+[Mente Maker]()
+
+[![Vídeo de Exemplo](https://yt3.googleusercontent.com/_9ySzLdgPWVtE0yyiSIHlw5yejMDBHiryy-nVxDIqObvVoO-BGLm72NJVV0LENmrJrMTFoRC=s176-c-k-c0x00ffffff-no-rj)](https://www.youtube.com/channel/UCdHR_M4vqK1rtKo56RMQ9tQ)
