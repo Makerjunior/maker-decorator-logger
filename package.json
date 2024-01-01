@@ -1,5 +1,5 @@
 {
-  "name": "@Makerjunior/maker-logger",
+  "name": "@makerjunior/maker-logger",
   "version": "1.0.0",
   "description": "Loggers",
   "main": "lib/index.js",
