@@ -9,7 +9,7 @@ A biblioteca LogDecorator é uma ferramenta simples e flexível para adicionar l
 Para instalar a biblioteca, utilize o seguinte comando npm:
 
 ```bash
-npm i Decorators-Logger
+npm i @makerjuniorpereira/maker-logger
 ```
 
 ## Uso Básico
@@ -17,7 +17,7 @@ npm i Decorators-Logger
 Aqui está um exemplo de uso básico da biblioteca:
 
 ```typescript
-import { LogarMethod } from 'Decorators-Logger';
+import { LogarMethod } from '@makerjuniorpereira/maker-logger/src/logger';
 
 // ...
 
@@ -50,7 +50,7 @@ O decorator `@LogarMethod` aceita várias opções para personalizar o comportam
 Você pode personalizar ainda mais a biblioteca adicionando suas próprias opções ou modificando o decorator de acordo com suas necessidades específicas. Aqui está um exemplo de personalização:
 
 ```typescript
-import { LogarMethod } from 'Decorators-Logger';
+import { LogarMethod } from '@makerjuniorpereira/maker-logger/src/logger';
 
 const LogarComPrefixo = function(options?: { customPrefix: string }): MethodDecorator {
   return LogarMethod({
