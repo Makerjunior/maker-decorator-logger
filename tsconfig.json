@@ -5,7 +5,6 @@
       "strict": true,
       "esModuleInterop": true,
       "declaration": true,
-      "outDir": "./dist",
       "experimentalDecorators": true
     },
     "include": ["src/**/*"],
