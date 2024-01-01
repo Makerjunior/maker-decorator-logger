@@ -1,20 +1,13 @@
-
 {
     "compilerOptions": {
-      "target": "es5",
+      "target": "es2016",
       "module": "commonjs",
-      "sourceMap": true,
-      "outDir": "./lib",
-      "rootDir": "./src",
       "strict": true,
       "esModuleInterop": true,
       "declaration": true,
-      "experimentalDecorators": true,   
+      "experimentalDecorators": true
     },
-    "include": [
-      "src"
-    ],
-    "exclude": [
-      "**/*.spec.ts"
-    ]
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist"]
   }
+  
