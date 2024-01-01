@@ -1,4 +1,4 @@
-# Documentação da Biblioteca Decorators-Logger
+# Documentação da Biblioteca : maker-logger
 
 A biblioteca LogDecorator é uma ferramenta simples e flexível para adicionar logs a métodos em TypeScript. Ela permite que você personalize facilmente o formato e o conteúdo dos logs, bem como o destino para onde os logs serão gravados. A biblioteca usa decorators para simplificar a aplicação de logger aos métodos desejados.
 
